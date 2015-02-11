@@ -1,11 +1,9 @@
 appstack-drush
 ==============
 
-_v0.1 - 20150130_
+_v1.0 - 20150211__
 
 Docker image for building and running [Drush](http://drush.ort) in a container.
-
-*Note - this image is still under development.*
 
 ### Building and Running ###
 
@@ -16,16 +14,16 @@ Build the Image:
 
 Use Drush:
 
-    sudo docker run --volumes-from <your webserver container> -it drush <drush options>
+    sudo docker run --volumes-from <your webserver container> -it drush <drush command>
 
 Example:
 
-    sudo docker run --volumes-from my_docker_webserver -it drush "site-install standard --account-name=admin --account-pass=<my pass> --db-url=<DB_URL_PATH>
+    sudo docker run --volumes-from my_docker_webserver -it drush "drush site-install standard --account-name=admin --account-pass=<my pass> --db-url=<DB_URL_PATH>
 
 
 ### Known Issues ###
 
-* Still in heavy develpment
+Tracked on Github: [https://github.com/DockerDemos/appstack-drush/issues](https://github.com/DockerDemos/appstack-drush/issues)
 
 ### Acknowledgments ###
 
