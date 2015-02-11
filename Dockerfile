@@ -6,7 +6,7 @@ MAINTAINER Chris Collins <collins.christopher@gmail.com>
 ENV DRUSH_URL https://github.com/drush-ops/drush/archive/master.tar.gz
 ENV COMPOSER_URL https://getcomposer.org/installer
 ENV REPO http://dl.iuscommunity.org/pub/ius/stable/CentOS/\$releasever/\$basearch/
-ENV PKGS git curl tar which php56u-cli php56u-mysql mysql
+ENV PKGS git curl tar which php56u-cli php56u-mysql php56u-gd mysql
 
 RUN echo -e "\
 [ius]\n\
@@ -26,5 +26,7 @@ WORKDIR /drush
 RUN composer install && composer global require drush/drush:6.*
 WORKDIR /
 
-ENTRYPOINT [ "drush" ]
-CMD [ "--help" ]
+ADD scripts/ /scripts/
+RUN chmod -R +x /scripts/
+
+CMD [ "drush", "--help" ]
