@@ -2,5 +2,5 @@
 
 EXTRAS="$@"
 
-drush dl drupal --destination=/var/www --drupal-project-rename=html -y
+drush dl drupal --destination=/var/www --drupal-project-rename=html -y ${EXTRAS}
 
