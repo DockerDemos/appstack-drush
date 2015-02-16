@@ -3,9 +3,9 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEABECAAYFAlTiYRIACgkQte6EFif3vzelqQCfZT/lXUgkBLunSNO4F+QfrKKR
-EqMAn11l6yHcRhJZ7pVz+aQEGsm6jPNM
-=sKF4
+iEYEABECAAYFAlTiY+QACgkQte6EFif3vzcE+wCgtQIyet8HVSI4VsU4di4B8Rw6
+V3gAoNRGMzbDqez/Ft6dTdZeAI3/I8Wu
+=CliY
 -----END PGP SIGNATURE-----
 
 ```
@@ -24,8 +24,8 @@ size   exec  file                  contents
 1662           README.md           8593a7355763787eb20d834166fae343d6a422994beeb287093033651fa38bc4
                scripts/                                                                            
 1607             SIGNED.md         3e0a1f958304c006979b1b6ebd114e53362d5639801c4bbc3f50aafd7c577a68
-186              core-download.sh  d4aee12554523d2f753458b7e7b3e8c30bce1884289524444c0abaef7d8bd72a
-389              core-install.sh   48571e8447fa545c12cd09ec0ebcb9bf2183967626be04095c3bcc93e8b10b17
+107              core-download.sh  34a581658f3a09b109691b08239d0578f9883c187cc19d3368dde61eab023a37
+469              core-install.sh   3773bb9d817b1e60ee592a645cbed679ab6617d86c619330ab3cf9367f3e3e2e
 ```
 
 #### Ignore
