@@ -1,8 +1,8 @@
 #!/bin/bash
 
 EXTRAS="$@"
-DBNAME="$(awk '/name/ {print $2}' /root/.secret/dbdata.yaml)"
-DBPASS="$(awk '/mysql/ {print $2}' /root/.secret/dbdata.yaml)"
+DBNAME="$(awk '/name/ {print $2}' /conf/.creds/dbdata.yaml)"
+DBPASS="$(awk '/mysql/ {print $2}' /conf/.creds/dbdata.yaml)"
 
 cd /var/www/html
 
