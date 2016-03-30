@@ -3,9 +3,9 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEABECAAYFAlTiY+QACgkQte6EFif3vzcE+wCgtQIyet8HVSI4VsU4di4B8Rw6
-V3gAoNRGMzbDqez/Ft6dTdZeAI3/I8Wu
-=CliY
+iEYEABECAAYFAlb8B+AACgkQte6EFif3vzdt0QCeKwpeSuhZpis0F2qrGIUstoJY
+z8MAnAywrhz0KCyMQQ0HI4Qup078qUl6
+=4xaB
 -----END PGP SIGNATURE-----
 
 ```
@@ -17,15 +17,17 @@ V3gAoNRGMzbDqez/Ft6dTdZeAI3/I8Wu
 #### Expect
 
 ```
-size   exec  file                  contents                                                        
-             ./                                                                                    
-1015           Dockerfile          fb2d32b252323d2e92127a50f1d935adc01bc9bbe91a39da911a2853cf7a8766
-35122          LICENSE             12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0
-1662           README.md           8593a7355763787eb20d834166fae343d6a422994beeb287093033651fa38bc4
-               scripts/                                                                            
-1607             SIGNED.md         3e0a1f958304c006979b1b6ebd114e53362d5639801c4bbc3f50aafd7c577a68
-107              core-download.sh  34a581658f3a09b109691b08239d0578f9883c187cc19d3368dde61eab023a37
-469              core-install.sh   3773bb9d817b1e60ee592a645cbed679ab6617d86c619330ab3cf9367f3e3e2e
+size   exec  file                  contents                                                                                                                         
+             ./                                                                                                                                                     
+12288          .Dockerfile.swp     b31eb0882c19754472b4c89eb2962aef1695aef66a0115cf74948f99a90b3117|cd2f6656c7d19f02efe5f9628c328d3e9a3004ac1abed39ae1ef616db48d5dc0
+867            Dockerfile          d6f5ba1d23d3a1b555c1aa6c490712d07516cce170a9b36cc700e7a9241f5df6                                                                 
+35122          LICENSE             12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0                                                                 
+1930           README.md           05f89a7c236e7c0628bff4cf37dcf220ead750f57c0e0d66b4f5e833c20c6a8f                                                                 
+1081           install_drush.sh    e6c6f83d45427ebd22f4e55298015ddee06b011b63f9250e3797a3434fa10e0c                                                                 
+               scripts/                                                                                                                                             
+1607             SIGNED.md         3e0a1f958304c006979b1b6ebd114e53362d5639801c4bbc3f50aafd7c577a68                                                                 
+107              core-download.sh  34a581658f3a09b109691b08239d0578f9883c187cc19d3368dde61eab023a37                                                                 
+467              core-install.sh   860ed9cde4bbd2045a9b018d194e73d25f98971628115c6b3a0871e008fefc87                                                                 
 ```
 
 #### Ignore

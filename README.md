@@ -1,7 +1,7 @@
 appstack-drush
 ==============
 
-_v1.0 - 20150211__
+_v2.0 - 20160330_
 
 Docker image for building and running [Drush](http://drush.ort) in a container.
 
@@ -19,6 +19,14 @@ Use Drush:
 Example:
 
     sudo docker run --volumes-from my_docker_webserver -it drush "drush site-install standard --account-name=admin --account-pass=<my pass> --db-url=<DB_URL_PATH>
+
+### Changelog ###
+
+*20160330 - v2.0* 
+
+1. Added multiple versions of Drush - "master" (latest version from drush-ops), 8.0.5, 7.2.0, 6.7.0
+2. Versions can be accessed with "drush-$version_number".  ie: drush-7.2.0
+3. Drush 8.0.5 is the default "drush" command version
 
 
 ### Known Issues ###
