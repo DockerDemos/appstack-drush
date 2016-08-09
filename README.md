@@ -1,7 +1,7 @@
 appstack-drush
 ==============
 
-_v2.0 - 20160330_
+_v2.1 - 20160809_
 
 Docker image for building and running [Drush](http://drush.ort) in a container.
 
@@ -22,7 +22,11 @@ Example:
 
 ### Changelog ###
 
-*20160330 - v2.0* 
+_v2.1 - 20160809_
+
+1. [Merged #2: Add PostgreSQL support](https://github.com/DockerDemos/appstack-drush/pull/2)
+
+_v2.0 - 20160330_
 
 1. Added multiple versions of Drush - "master" (latest version from drush-ops), 8.0.5, 7.2.0, 6.7.0
 2. Versions can be accessed with "drush-$version_number".  ie: drush-7.2.0
