@@ -7,7 +7,7 @@ ENV DRUSH_DL https://github.com/drush-ops/drush/archive
 ENV DRUSHES "master 8.0.5 7.2.0 6.7.0"
 ENV COMPOSER_URL https://getcomposer.org/installer
 ENV REPO http://dl.iuscommunity.org/pub/ius/stable/CentOS/\$releasever/\$basearch/
-ENV PKGS git curl tar which php56u-cli php56u-mysql php56u-gd mysql php56u-pgsql postgresql
+ENV PKGS git curl tar which php56u-cli php56u-mysql php56u-gd php56u-ldap php56u-pecl-memcache php56u-pgsql mysql postgresql
 
 RUN echo -e "\
 [ius]\n\
